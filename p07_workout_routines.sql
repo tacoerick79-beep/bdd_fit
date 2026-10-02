@@ -1,4 +1,4 @@
--- Active: 1790967814601@@127.0.0.1@3306@fitnness
+Tables-- Active: 1790967814601@@127.0.0.1@3306@fitnness
 CREATE TABLE p07_workout_routines(
     p07_id INT PRIMARY KEY AUTO_INCREMENT,
     p01_id INT NOT NULL,

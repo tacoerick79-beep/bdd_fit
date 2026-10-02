@@ -1,0 +1,9 @@
+
+CREATE TABLE p06_exercises(
+    p06_id  INT PRIMARY KEY AUTO_INCREMENT,
+    p06_name VARCHAR(150) NOT NULL,
+    p06_description VARCHAR(250) NOT NULL,
+    p06_muscle_group VARCHAR(150) NOT NULL,
+    p06_equipment VARCHAR(150) NOT NULL,
+    p06_created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)

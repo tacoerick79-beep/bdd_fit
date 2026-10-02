@@ -1,3 +1,4 @@
+-- Active: 1790967814601@@127.0.0.1@3306@fitnness
 CREATE TABLE p02_goals (
     p02_id INT PRIMARY KEY auto_increment,
     p01_id INT NOT NULL,

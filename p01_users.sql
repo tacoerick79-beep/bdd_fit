@@ -1,3 +1,4 @@
+-- Active: 1790967814601@@127.0.0.1@3306@fitnness
 CREATE TABLE p01_users (
     p01_id INT PRIMARY KEY auto_increment,
     p01_name VARCHAR(100) NOT NULL,

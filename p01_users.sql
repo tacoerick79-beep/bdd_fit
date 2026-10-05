@@ -19,3 +19,5 @@ VALUES
 
 SELECT * FROM p01_users
 
+
+select * from p01_users WHERE p01_email='ericktaco68@gmail.com'

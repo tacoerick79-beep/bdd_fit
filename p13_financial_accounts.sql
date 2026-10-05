@@ -1,0 +1,15 @@
+-- Active: 1790967814601@@127.0.0.1@3306@fitnness
+CREATE TABLE p13_financial_accounts(
+p13_id INT PRIMARY KEY AUTO_INCREMENT,
+p01_id INT NOT NULL,
+p13_name VARCHAR(150) NOT NULL,
+p13_type VARCHAR(50) NOT NULL,
+p13_balance DECIMAL(6,2) NOT NULL, 
+p13_created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+p13_updated_at TIMESTAMP,
+
+
+CONSTRAINT fk_financial_accounts_users
+FOREIGN KEY (p01_id)
+REFERENCES p01_users(p01_id)
+)

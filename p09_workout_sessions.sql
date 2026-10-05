@@ -15,3 +15,6 @@ CREATE TABLE p09_workout_sessions(
     FOREIGN KEY (p07_id)
     REFERENCES p07_workout_routines(p07_id)
 )
+
+
+SELECT * FROM p09_workout_sessions
